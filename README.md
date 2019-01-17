@@ -52,7 +52,7 @@ UPDATE users SET last_name = 'Campos' WHERE first_name = 'Laura';
 """
 INSERT INTO users (id, first_name, email, last_name) VALUES (3, 'Zamiz', 'zamiz@email.com','Tapellido');
 """
-# 12 Ingresar 6 llamadas asociadas al usuario Laura.
+# 12 Ingresar 6 llamadas asociadas al usuario Laura. (instrucción n° 9)
 """
 INSERT INTO calls (id, phone, user_id, date) VALUES
     ('1', '+569 6300 3030', 2, '2018-02-10'),
